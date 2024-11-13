@@ -26,7 +26,7 @@ This project aims to improve traditional Retrieval-Augmented Generation (RAG) pi
 2. Run the following command:
    
    ```bash
-   git clone https://[your_repository_url].git
+   git clone https://github.com/TkuiTku100/Final_Project.git
    ```
 
 ### 2. Set Up the Environment
@@ -46,10 +46,12 @@ This project aims to improve traditional Retrieval-Augmented Generation (RAG) pi
 
 1. **Update Dataset Path:**
    Open the `Model_Training.ipynb` notebook.
+   Download the file `hotpot_train_v1.1.json` from the drive folder via link (https://technionmail-my.sharepoint.com/:u:/g/personal/alonaricha_campus_technion_ac_il/Eb4ANLlvzZ9EhmkWrejuylABURgEHErYQrJi3lh4V2_Scg?e=tlYFtn).
    Locate the line where the path to the `hotpot_train_v1.1.json` dataset is defined. Modify this path to match the location of the dataset on your system.
 
-2. **Run the Notebook:**
+3. **Run the Notebook:**
    Execute all the cells in the `Model_Training.ipynb` notebook. This will train the model and create the `deberta_v3_base_model1` and `bert_model1` directories.
+   You have them in the drive folder via link https://technionmail-my.sharepoint.com/:u:/g/personal/alonaricha_campus_technion_ac_il/Eb4ANLlvzZ9EhmkWrejuylABURgEHErYQrJi3lh4V2_Scg?e=tlYFtn, you can use them instead of running the training notebook.
 
 ### 4. Evaluate the Model
 
